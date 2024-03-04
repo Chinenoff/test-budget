@@ -39,6 +39,5 @@ fun Application.initSwagger() {
 
 @Suppress("NonAsciiCharacters", "EnumEntryName")
 enum class SwaggerTag(override val description: String = "") : APITag {
-    Бюджет,
-    ;
+    Бюджет, Автор
 }
